@@ -1,2 +1,2 @@
 # Login-Page
-Implementation of authorization with MVVVM architecture.
+Implementation of authorization with MVVM architecture.

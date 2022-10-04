@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="regions">
+        <item>@string/ashgabat</item>
+        <item>@string/ahal</item>
+        <item>@string/mary</item>
+        <item>@string/lebap</item>
+        <item>@string/balkan</item>
+        <item>@string/dashoguz</item>
+    </string-array>
+
+    <string-array name="regionValues">
+        <item>ashgabat</item>
+        <item>ahal</item>
+        <item>mary</item>
+        <item>lebap</item>
+        <item>balkan</item>
+        <item>dashoguz</item>
+    </string-array>
+
+    <string-array name="options">
+        <item>@string/camera</item>
+        <item>@string/gallery</item>
+    </string-array>
+
+    <string-array name="optionsValues">
+        <item>camera</item>
+        <item>gallery</item>
+    </string-array>
+
+</resources>

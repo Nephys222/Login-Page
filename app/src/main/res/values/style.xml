@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomTextInputLayout" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextColor">?attr/colorSecondary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+    </style>
+
+    <style name="CustomTextInputEdittext" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="editTextColor">?attr/colorOnBackground</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">?attr/colorSurface</item>
+    </style>
+
+    <style name="CustomBottomNavViewStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/CustomMaterialThemeOverlay</item>
+        <item name="itemActiveIndicatorStyle">@style/CustomItemActiveIndicatorStyle</item>
+    </style>
+
+    <style name="CustomMaterialThemeOverlay">
+        <item name="android:background">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="CustomItemActiveIndicatorStyle" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@android:color/transparent</item>
+    </style>
+
+    <style name="CustomBottomSheetDialogTheme" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/CustomBottomSheetStyle</item>
+    </style>
+
+    <style name="CustomBottomSheetStyle" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="snackBarStyle" parent="@style/Widget.Material3.Snackbar">
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.Medium</item>
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="maxLines">2</item>
+        <item name="animationMode">slide</item>
+    </style>
+
+</resources>

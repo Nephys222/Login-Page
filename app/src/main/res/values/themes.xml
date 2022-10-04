@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="BaseTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="actionBarStyle">@style/CustomToolbarStyle</item>
+        <item name="colorOnSurfaceVariant">?attr/colorSurface</item>
+        <item name="fontFamily">@font/ttcommons_medium</item>
+        <item name="bottomSheetDialogTheme">@style/CustomBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="Theme.Login" parent="BaseTheme">
+        <item name="android:statusBarColor" tools:targetApi="m">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="colorPrimary">@color/blue_md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/blue_md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/blue_md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/blue_md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/blue_md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/blue_md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/blue_md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/blue_md_theme_light_onSecondaryContainer</item>
+<!--        <item name="colorTertiary">@color/blue_md_theme_light_tertiary</item>-->
+<!--        <item name="colorOnTertiary">@color/blue_md_theme_light_onTertiary</item>-->
+<!--        <item name="colorTertiaryContainer">@color/blue_md_theme_light_tertiaryContainer</item>-->
+<!--        <item name="colorOnTertiaryContainer">@color/blue_md_theme_light_onTertiaryContainer</item>-->
+        <item name="colorError">@color/blue_md_theme_light_error</item>
+<!--        <item name="colorErrorContainer">@color/blue_md_theme_light_errorContainer</item>-->
+<!--        <item name="colorOnError">@color/blue_md_theme_light_onError</item>-->
+<!--        <item name="colorOnErrorContainer">@color/blue_md_theme_light_onErrorContainer</item>-->
+        <item name="android:colorBackground">@color/blue_md_theme_light_background</item>
+        <item name="colorOnBackground">@color/blue_md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/blue_md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/blue_md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/blue_md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/blue_md_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/blue_md_theme_light_outline</item>
+        <item name="colorOnSurfaceInverse">@color/blue_md_theme_light_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/blue_md_theme_light_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/blue_md_theme_light_inversePrimary</item>
+        <item name="android:textColor">@color/blue_md_theme_light_onBackground</item>
+        <item name="titleTextColor">@color/blue_md_theme_light_onSurface</item>
+
+<!--        <item name="colorPrimary">@color/blue_light_accentLight</item>-->
+<!--        <item name="colorOnPrimary">@android:color/white</item>-->
+<!--        <item name="colorPrimaryContainer">@color/blue_light_accentLight</item>-->
+<!--        <item name="colorOnPrimaryContainer">@color/blue_light_accentLight</item>-->
+<!--        <item name="colorSecondary">@color/blue_light_accentLight</item>-->
+<!--        <item name="colorOnSecondary">@color/blue_light_accentDark</item>-->
+<!--        <item name="colorSecondaryContainer">@color/blue_light_accentDark</item>-->
+<!--        <item name="android:colorBackground">@android:color/white</item>-->
+<!--        <item name="colorOnBackground">@android:color/white</item>-->
+<!--        <item name="colorSurface">@android:color/white</item>-->
+    </style>
+
+    <style name="Theme.Login.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Login.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Login.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
